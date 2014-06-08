@@ -1,0 +1,29 @@
+R Programming assignment 3
+
+rankhospital <- rankhospital <- function(state, outcome, num = "best") {
+## Read outcome data
+## Check that state and outcome are valid
+## Return hospital name in that state with the given rank
+## 30-day death rate
+	minmort <-  <- min(as.numeric(as.character(dati[,17])))
+	
+	##makes sure to kick out the raw <-(read.csv("outcome-of-care-measures.csv", colClasses = "character"))
+v
+
+if state %in% valid_state{
+##stuff
+else
+stop("invalid state")
+
+best <- function(state, outcome){
+raw <-(read.csv("outcome-of-care-measures.csv", colClasses = "character"))
+valid_state = unique(as.character(raw[,7])
+valid_outcome = unique(as.character(raw[, c(17, 19, 20)]))
+if state (!%in% valid_state){
+stop("invalid state")
+} else if (outcome !%in% valid_outcome){
+stop("invalid outcome")}
+else{
+###function code here
+
+}
